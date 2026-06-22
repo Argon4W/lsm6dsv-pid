@@ -7419,6 +7419,10 @@ static uint16_t npy_float_to_half(float_t f)
   return npy_floatbits_to_halfbits(fbits);
 }
 
+uint16_t lsm6dsv_from_f32_to_f16(float_t val)
+{
+  return npy_float_to_half(val);
+}
 
 int32_t lsm6dsv_sflp_game_gbias_set(const stmdev_ctx_t *ctx,
                                     const lsm6dsv_sflp_gbias_t *val)
