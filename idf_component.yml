@@ -1,8 +1,10 @@
 version: "5.5.1"
-description: "ESp-IDF component form of STMicroelectronics/lsm6dsv-pid"
-url: https://github.com/Argon4W/lsm6dsv-pid
-issues: https://github.com/Argon4W/lsm6dsv-pid/issues
-repository: https://github.com/Argon4W/lsm6dsv-pid.git
-documentation: https://github.com/STMicroelectronics/STMems_Standard_C_drivers/tree/master/lsm6dsv_STdC/examples
+maintainers: "Argon4W"
+description: "ESP-IDF component form of STMicroelectronics/lsm6dsv-pid"
+license: "BSD 3-Clause License"
+url: "https://github.com/Argon4W/lsm6dsv-pid"
+repository: "https://github.com/Argon4W/lsm6dsv-pid.git"
+documentation: "https://github.com/STMicroelectronics/STMems_Standard_C_drivers/tree/master/lsm6dsv_STdC/examples"
+issues: "https://github.com/Argon4W/lsm6dsv-pid/issues"
 dependencies:
   idf: ">=5.0"
