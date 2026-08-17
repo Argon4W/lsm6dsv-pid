@@ -1,5 +1,7 @@
 version: "5.5.1"
-maintainers: "Argon4W"
+maintainers:
+- "Maintainers of STMicroelectronics/lsm6dsv-pid" 
+- "Argon4W"
 description: "ESP-IDF component form of STMicroelectronics/lsm6dsv-pid"
 license: "BSD 3-Clause License"
 url: "https://github.com/Argon4W/lsm6dsv-pid"
